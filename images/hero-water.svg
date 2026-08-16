@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#c9eaf0" stroke-width="1" opacity=".7"/>
+    </pattern>
+    <radialGradient id="water" cx="76%" cy="32%" r="58%">
+      <stop offset="0" stop-color="#d7fbff"/>
+      <stop offset=".42" stop-color="#efffff" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#fdfdfb" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1100" fill="#fdfdfb"/>
+  <rect width="1600" height="1100" fill="url(#grid)"/>
+  <rect width="1600" height="1100" fill="url(#water)"/>
+  <path d="M910 240c160-82 339-58 507 57" fill="none" stroke="#8fdfe8" stroke-width="2" opacity=".45"/>
+  <path d="M885 278c172-95 373-67 558 62" fill="none" stroke="#8fdfe8" stroke-width="2" opacity=".32"/>
+  <path d="M861 317c187-110 402-79 605 67" fill="none" stroke="#8fdfe8" stroke-width="2" opacity=".22"/>
+</svg>
