@@ -14,4 +14,5 @@
 @media (min-width:821px){
   .project-gallery{padding:20px 58px 0}
   .dialog-summary{padding:16px 58px 58px}
+  .gallery-side{grid-template-rows:1fr!important;grid-auto-rows:auto!important}
 }
