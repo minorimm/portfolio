@@ -1,0 +1,5 @@
+@media (max-width:700px){
+  .project-gallery{grid-template-columns:1fr}
+  .gallery-main,.gallery-side div{aspect-ratio:4/3}
+  .gallery-side{grid-template-columns:1fr;grid-template-rows:repeat(3,auto)}
+}
