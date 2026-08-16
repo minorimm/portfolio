@@ -1,3 +1,3 @@
-.hero{isolation:isolate;background-color:#fdfdfb;background-image:url("images/hero-water.svg");background-position:center;background-repeat:no-repeat;background-size:100% 100%}.hero>.eyebrow,.hero-title-wrap,.hero-bottom{position:relative;z-index:2}.hero-orb{z-index:0}
+.hero{isolation:isolate;background-color:#fdfdfb;background-image:url("images/hero-water.png");background-position:center;background-repeat:no-repeat;background-size:100% 100%;mix-blend-mode:multiply}.hero>.eyebrow,.hero-title-wrap,.hero-bottom{position:relative;z-index:2}.hero-orb{z-index:0}
 .water-ripple{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1}
 @media (prefers-reduced-motion:reduce){.water-ripple{display:none}}

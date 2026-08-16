@@ -1,0 +1,12 @@
+.work-info{display:block;padding-top:14px;padding-left:8px;text-align:left}
+.work-info h3{font-size:17px;line-height:1.35}
+.work-info p{margin-top:7px;font-size:12px;line-height:1.4}
+@media(min-width:701px){
+  .work-info h3{font-size:17px!important}
+  .work-info p{font-size:12px!important}
+}
+@media(max-width:700px){
+  .work-info{padding-top:10px;padding-left:4px}
+  .work-info h3{font-size:14px}
+  .work-info p{margin-top:5px;font-size:10px}
+}
