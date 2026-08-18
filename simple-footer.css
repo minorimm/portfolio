@@ -5,8 +5,9 @@
   border-top:1px solid #b7cdd2;
 }
 .profile-footer-inner{width:min(1190px,92vw);margin:auto;padding:70px 0 52px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:clamp(40px,8vw,120px);align-items:start}
-.profile-intro{max-width:520px;margin:0;font-size:14px;line-height:2}
-.profile-columns{display:grid;grid-template-columns:repeat(3,1fr)}
+.profile-intro{max-width:520px;margin:0;font-size:14px;line-height:2;text-align:justify;text-justify:inter-character}
+.profile-columns{display:grid;grid-template-columns:.8fr 1fr 1.45fr}
+.profile-columns .career p{white-space:nowrap}
 .profile-columns section{padding:0 26px;border-left:1px solid #9ccfd8}
 .profile-columns section:first-child{padding-left:0;border-left:0}
 .profile-columns h2{margin:0 0 15px;color:#278996;font:10px "DM Mono",monospace;letter-spacing:.12em}
@@ -14,6 +15,7 @@
 .profile-footer-bottom{width:min(1190px,92vw);margin:auto;padding:20px 0;display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line)}
 .profile-footer-bottom p,.profile-footer-bottom a:not(.logo){margin:0;font:10px "DM Mono",monospace;color:var(--ink);text-decoration:none}
 .logo .logo-apostrophe{font-size:inherit;vertical-align:baseline;margin:0 -2px}
+@media(min-width:701px) and (max-width:1000px){.profile-footer-inner{display:block}.profile-intro{max-width:none;margin-bottom:42px}.profile-columns{grid-template-columns:.8fr 1fr 1.45fr}}
 
 /* ABOUTもフッターとつながる軽い印象にする */
 .about{background:transparent;color:var(--ink)}
