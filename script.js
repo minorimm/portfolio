@@ -17,6 +17,7 @@ const dialog = document.querySelector('.project-dialog');
 const dialogTitle = dialog.querySelector('#project-title');
 const dialogCategory = dialog.querySelector('.dialog-category');
 const dialogDescription = dialog.querySelector('.dialog-description');
+const dialogSoftware = dialog.querySelector('.dialog-software span');
 const galleryMain = dialog.querySelector('.gallery-main img');
 const gallerySide = dialog.querySelectorAll('.gallery-side img');
 
@@ -25,6 +26,7 @@ document.querySelectorAll('.work-card').forEach((card) => {
     dialogTitle.textContent = card.querySelector('h3').textContent;
     dialogCategory.textContent = card.querySelector('.work-info p').textContent;
     dialogDescription.textContent = card.dataset.description;
+    dialogSoftware.textContent = card.dataset.software;
     const galleryImages = card.dataset.gallery.split(',');
     galleryMain.src = galleryImages[0];
     galleryMain.alt = `${card.querySelector('h3').textContent} のメイン画像`;
