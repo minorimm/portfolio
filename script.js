@@ -37,7 +37,6 @@ document.querySelectorAll('.work-card').forEach((card) => {
 });
 
 dialog.querySelector('.dialog-close').addEventListener('click', () => dialog.close());
-dialog.querySelector('.dialog-contact').addEventListener('click', () => dialog.close());
 dialog.addEventListener('click', (event) => {
   if (event.target === dialog) dialog.close();
 });

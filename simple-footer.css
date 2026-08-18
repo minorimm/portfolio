@@ -1,0 +1,20 @@
+.profile-footer{
+  display:block;
+  padding:0;
+  background:#dce7ea;
+  border-top:1px solid #b7cdd2;
+}
+.profile-footer-inner{width:min(1190px,92vw);margin:auto;padding:70px 0 52px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:clamp(40px,8vw,120px);align-items:start}
+.profile-intro{max-width:520px;margin:0;font-size:14px;line-height:2}
+.profile-columns{display:grid;grid-template-columns:repeat(3,1fr)}
+.profile-columns section{padding:0 26px;border-left:1px solid #9ccfd8}
+.profile-columns section:first-child{padding-left:0;border-left:0}
+.profile-columns h2{margin:0 0 15px;color:#278996;font:10px "DM Mono",monospace;letter-spacing:.12em}
+.profile-columns p{margin:0;font-size:12px;line-height:2}
+.profile-footer-bottom{width:min(1190px,92vw);margin:auto;padding:20px 0;display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line)}
+.profile-footer-bottom p,.profile-footer-bottom a:not(.logo){margin:0;font:10px "DM Mono",monospace;color:var(--ink);text-decoration:none}
+
+/* ABOUTもフッターとつながる軽い印象にする */
+.about{background:transparent;color:var(--ink)}
+.about .text-link{color:var(--ink)}
+@media(max-width:700px){.profile-footer-inner{display:block;padding:52px 0 38px}.profile-intro{font-size:12px;margin-bottom:34px}.profile-columns{grid-template-columns:1fr;gap:24px}.profile-columns section,.profile-columns section:first-child{padding:0 0 0 16px;border-left:1px solid #9ccfd8}.profile-columns p{font-size:11px}.profile-footer-bottom{gap:12px;flex-wrap:wrap}.profile-footer-bottom p{order:3;width:100%}}

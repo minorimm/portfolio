@@ -17,3 +17,7 @@
   .dialog-summary{padding:16px 58px 58px}
   .gallery-side{grid-template-rows:1fr!important;grid-auto-rows:auto!important}
 }
+
+@media (min-width:701px){
+  .project-dialog{width:min(840px,86vw)}
+}

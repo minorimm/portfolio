@@ -40,6 +40,5 @@
       <stop offset="1" stop-color="#fdfdfb" stop-opacity="0"/>
     </radialGradient>
   </defs>
-  <rect class="st3" y="0" width="1600" height="1100"/>
   <rect class="st4" y="0" width="1600" height="1100"/>
 </svg>

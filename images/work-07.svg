@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#dce8e9"/>
+  <rect x="142" y="74" width="516" height="452" fill="#fffefa"/>
+  <circle cx="400" cy="250" r="106" fill="#9dcbd0"/>
+  <path d="M278 357c72-69 171-69 244 0" fill="none" stroke="#315f67" stroke-width="4"/>
+  <text x="400" y="446" text-anchor="middle" fill="#315f67" font-family="Georgia" font-size="49">quiet days</text>
+</svg>
