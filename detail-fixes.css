@@ -11,7 +11,7 @@
 .gallery-main{aspect-ratio:4/3}
 .gallery-main img,.gallery-side img{width:100%;height:auto!important;aspect-ratio:4/3;object-fit:cover}
 .gallery-side{height:auto!important}
-.dialog-description{max-width:none!important;width:100%}
+.dialog-description{max-width:none!important;width:100%;white-space:pre-line;text-align:justify;text-justify:inter-character}
 .dialog-software{margin-top:22px;font-family:"DM Mono",monospace}
 .dialog-software span{display:inline-block;padding-bottom:5px;border-bottom:1px solid #278996;font-size:11px;line-height:1.6}
 @media (min-width:821px){

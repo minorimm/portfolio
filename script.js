@@ -44,7 +44,6 @@ dialog.addEventListener('click', (event) => {
 });
 
 const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 
 function startCanvasRipples() {
   const hero = document.querySelector('.hero');
@@ -98,15 +97,5 @@ function startCanvasRipples() {
 }
 
 if (!prefersReducedMotion) {
-  if (isSafari) {
-    startCanvasRipples();
-  } else if (window.jQuery && window.jQuery.fn.ripples) {
-    try {
-      window.jQuery('.hero').ripples({ perturbance: 0.015, resolution: 256, dropRadius: 20 });
-    } catch (error) {
-      startCanvasRipples();
-    }
-  } else {
-    startCanvasRipples();
-  }
+  startCanvasRipples();
 }

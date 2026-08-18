@@ -13,6 +13,7 @@
 .profile-columns p{margin:0;font-size:12px;line-height:2}
 .profile-footer-bottom{width:min(1190px,92vw);margin:auto;padding:20px 0;display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line)}
 .profile-footer-bottom p,.profile-footer-bottom a:not(.logo){margin:0;font:10px "DM Mono",monospace;color:var(--ink);text-decoration:none}
+.logo .logo-apostrophe{font-size:inherit;vertical-align:baseline;margin:0 -2px}
 
 /* ABOUTもフッターとつながる軽い印象にする */
 .about{background:transparent;color:var(--ink)}
